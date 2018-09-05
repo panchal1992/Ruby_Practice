@@ -20,13 +20,9 @@ class Sample
   include A
   include B
 	def s1
+		a
+		b
+		c
+		d
 	end
 end
-
-samp = Sample.new
-samp.a
-samp.b
-samp.c
-samp.d
-
-
